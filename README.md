@@ -9,7 +9,7 @@ Reverse_Shell Implemented in C++ with the ability to bypass sandboxes through de
 
 Features:
 - Reverse_shell implemented through c++
-- Bypass sandbox through identifying mouse movement
+- Bypass some sandbox technologies through identifying mouse movement
 - Dynamic API resolution for bypassing static analysis
 - Zero detection rate (at the moment of speaking)
 
