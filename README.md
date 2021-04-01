@@ -18,5 +18,5 @@ How to Use:
 
 
  <img src="Image/Antiscan.png" width="500">
- <img src="Image/2.png" width="500">
- <img src="Image/3.png" width="500">
+ <img src="Image/2.png" width="800">
+ <img src="Image/3.png" width="800">
