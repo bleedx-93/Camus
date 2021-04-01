@@ -58,7 +58,6 @@ void Hardware_Check()
     {
         std::cout << "[-] CPU Resource Check   [OK]" << std::endl;;
 
-
     }
         
 
