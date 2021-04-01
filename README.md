@@ -14,7 +14,7 @@ Features:
 - Zero detection rate (at the moment of speaking)
 
 Usage:
-- Run the program alongside with the IP address and port as inputs for example: Camus.exe 192.168.1.1 555
+- Run the program alongside with the IP address and port as inputs for example: Camus.exe 192.168.1.1 555 <br />
 
 
 
