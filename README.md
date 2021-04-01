@@ -4,6 +4,7 @@
   <img src="Image/1.jpg" width="200">
 </div>
 
+
 Reverse_Shell Implemented in C++ with the ability to bypass sandboxes through detecting mouse movement
 
 Features:
@@ -13,8 +14,8 @@ Features:
 - Zero detection rate (at the moment of speaking)
 
 How to Use:
-1. Run the program alongside with the IP address and port as inputs
-   for example: Camus.exe 192.168.1.1 555
+Run the program alongside with the IP address and port as inputs
+for example: Camus.exe 192.168.1.1 555
 
 
  <img src="Image/Antiscan.png" width="500">
