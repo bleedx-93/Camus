@@ -19,7 +19,7 @@ Usage:
 
 
 
-[Notice] When you trying to test the tool remember to move the mouse cursor.If in 5 seconds to mouse cursor didn't move the program would terminates itself.
+[Notice] When you trying to test the tool remember to move the mouse cursor.If in 5 seconds the mouse cursor didn't move the program would terminates itself.
 
 
 
