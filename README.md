@@ -19,7 +19,7 @@ Usage:
 
 
 
-[Notice] When you trying to test the tool remember to change the mouse cursor otherwise it would be terminated.
+[Notice] When you trying to test the tool remember to move the mouse cursor otherwise it would be terminated.
 
 
 
